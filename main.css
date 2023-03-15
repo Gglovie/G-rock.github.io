@@ -1,20 +1,18 @@
 body{
     background-color:  hsl(216, 12%, 8%);
     color:  hsl(0, 0%, 100%);
+    min-height: 100vh;
     display: grid;
-    justify-content: center;
+    place-items: center;
+    margin: 0;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
 }
 .container{
     width: 220px;
-    height: 210px;
     border-radius: 20px;
     font-size: 15px;
     background-color: hsl(213, 19%, 18%);
     padding: 20px;
-    margin-top: 40%;
-    margin-bottom: 10%;
-    justify-self: center;
     /* margin: 10% 40% 5% 40%; */
 
 }
@@ -33,9 +31,11 @@ body{
     padding: 10px;
     background-color: rgb(50, 58, 68);
 }
-b{
+h1{
     font-size: 15px;
     font-weight: 700;
+    margin-bottom: -20px;
+    margin-top: -5px;
 }
 p{
     font-size: xx-small;
@@ -99,20 +99,18 @@ p{
 }
 .thank-you-container
 {
-    position: absolute;
     /* top: -100vh; */
     background: hsl(216, 12%, 8%, 0.8) ;
     width: 220px;
-    height: 210px;
     border-radius: 20px;
     font-size: 15px;
     background-color: hsl(213, 19%, 18%);
     padding: 20px;
-    top: 25%;
-    bottom: 25%;
-   justify-self: center;
+    justify-self: center;
+    
 }
 .attribution{
+    color: white;
     position:relative;
     font-size: xx-small;
     font-family: 'Courier New', Courier, monospace;
