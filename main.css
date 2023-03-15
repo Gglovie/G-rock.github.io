@@ -14,8 +14,18 @@ body{
     padding: 20px;
     margin-top: 40%;
     margin-bottom: 10%;
+    justify-self: center;
     /* margin: 10% 40% 5% 40%; */
 
+}
+.display-none
+{
+    display: none !important;
+}
+
+.display-block
+{
+    display: block !important;
 }
 .img1{
     margin-bottom: 10px;
@@ -55,7 +65,11 @@ p{
     background-color: hsl(25, 97%, 53%);
 
 }
-.numbers button:active{
+.numbers button.semi_active{
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(217, 12%, 63%);
+}
+.numbers button.active{
     color: hsl(0, 0%, 100%);
     background-color: hsl(25, 97%, 53%);
 
@@ -83,3 +97,31 @@ p{
     background-color: hsl(0, 0%, 100%);
 
 }
+.thank-you-container
+{
+    position: absolute;
+    /* top: -100vh; */
+    background: hsl(216, 12%, 8%, 0.8) ;
+    width: 220px;
+    height: 210px;
+    border-radius: 20px;
+    font-size: 15px;
+    background-color: hsl(213, 19%, 18%);
+    padding: 20px;
+    top: 25%;
+    bottom: 25%;
+   justify-self: center;
+}
+.attribution{
+    position:relative;
+    font-size: xx-small;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+/* .thank-you-container-slide-in 
+{
+    transition: 1s;
+    top: 25%;
+    bottom: 25%;
+} */
